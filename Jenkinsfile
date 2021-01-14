@@ -14,6 +14,10 @@ pipeline {
                     chmod +x test.sh
                     ./test.sh
                 '''
+            }
+        }
+         stage('stage-2'){
+            steps {
                 echo "Hello from other steps"
             }
         }
