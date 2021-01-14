@@ -14,8 +14,6 @@ pipeline {
                     chmod +x test.sh
                     ./test.sh
                 '''
-            }
-            steps {
                 echo "Hello from other steps"
             }
         }
