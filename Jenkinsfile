@@ -15,6 +15,9 @@ pipeline {
                     ./test.sh
                 '''
             }
+            steps {
+                echo "Hello from other steps"
+            }
         }
     }
 }
