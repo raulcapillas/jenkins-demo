@@ -33,7 +33,7 @@ pipeline {
     }
     post {
         always {
-            echo "Prints wether deploy happend or not, success or failure"
+            echo 'Prints wether deploy happend or not, success or failure'
         }
     }
 }
